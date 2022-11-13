@@ -1,0 +1,12 @@
+.container {
+  width: 970px;
+  margin: 0 auto;
+}
+
+.fa-star {
+  color: #E5E5E5; 
+} 
+
+.checked {
+  color: #070707; 
+} 
