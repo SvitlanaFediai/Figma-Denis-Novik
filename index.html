@@ -8,6 +8,8 @@
   <meta name="description" content="Figma and frontend">
   <title>Figma for Frontend developer</title>
   <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -23,27 +25,31 @@
           <li><a href="#contacts">Contacts</a></li>
         </ul>
       </nav>
+      <div class="line"></div>
       <h1>Denis Novik</h1>
-      <img src="./images/Denis-Novikphoto.jpg" alt="Denis Novik">
+      <img class="profile" src="./images/Denis-Novikphoto.jpg" alt="Denis Novik">
     </div>
   </header>
   
   <main>
     <section class="wrapper" id="about">
       <div class="container">
-        <h3 class="title">About me</h3>
-        <p class="information">Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it. </p>
+        <h3 class="title indent">About me</h3>
+        <p class="information">Hi, I'm Denis – UX/UI designer from Minsk.<br> I'm interested in design and everything connected with it. </p>
+        <p class="information">I'm studying at courses "Web and mobile design<br> interfaces" in IT-Academy.</p>
+        <p class="information">Ready to implement excellent projects<br> with wonderful people.</p>
       </div>
     </section>
 
-    <section class="skills" id="skills">
+    <section id="skills">
       <div class="container">
         <h3 class="title">Skills</h3>
         <p class="information">I work in such programs as</p>
         <div class="products">
           <ul class="products-list">
             <li class="products-item">
-              <img src="./images/Ps.png" alt="Adobe Photoshop">Adobe Photoshop
+              <img src="./images/Ps.png" alt="Adobe Photoshop">
+              <p class="skills">Adobe<br>Photoshop</p> 
               <div class="rating">
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -53,7 +59,8 @@
               </div>
             </li>
             <li class="products-item">
-              <img src="./images/illustrator.png" alt="Adobe illustrator">Adobe illustrator
+              <img src="./images/illustrator.png" alt="Adobe illustrator">
+              <p class="skills">Adobe<br>illustrator</p>
               <div class="rating">
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -63,7 +70,8 @@
               </div>
             </li>
             <li class="products-item">
-              <img src="./images/Ae.png" alt="Adobe After Effects">Adobe After Effects
+              <img src="./images/Ae.png" alt="Adobe After Effects">
+              <p class="skills">Adobe<br>After Effects</p> 
               <div class="rating">
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -73,7 +81,8 @@
               </div>
             </li>
             <li class="products-item">
-              <img src="./images/Figma.png" alt="Figma">Figma
+              <img src="./images/Figma.png" alt="Figma">
+              <p class="skills">Figma</p>
               <div class="rating">
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -89,12 +98,12 @@
 
     <section class="wrapper" id="portfolio">
       <div class="container">
-        <h3 class="title">Portfolio</h3>
-        <div class="fashion-store">
+        <h3 class="title indent">Portfolio</h3>
+        <div class="landing-page">
           <img src="./images/Fashion-Store.jpg" alt="Fashion Store">
-          <a href="#" target="_blank">Online fashion store - Homepage</a>
+          <a href="#" target="_blank">Online fashion store -<br> Homepage</a>
         </div>
-        <div class="reebok">
+        <div class="landing-page">
           <img src="./images/reebok_web.jpg" alt="Reebok">
           <a href="#" target="_blank">Reebok Store - Concept</a>
         </div>
@@ -110,8 +119,8 @@
   <footer class="container">
     <div class="contact" id="contacts">
       <h3 class="title">Contacts</h3>
-      <p class="information">Want to know more or just chat?<br> You are welcome!</p>
-      <a href="mailto:denisNovik@gmail.com">Send message</a>
+      <p class="footer-information">Want to know more or just chat?<br> You are welcome!</p>
+      <a class="btn" href="mailto:denisNovik@gmail.com">Send message</a>
       <div class="social-contact">
         <ul class="social-contact-list">
           <li class="social-contact-item">
@@ -136,7 +145,7 @@
           </li>
         </ul>
       </div>
-      <p class="social-information">Like me on <br> LinkedIn, Instagram, Behance, Dribble</p>
+      <p class="social-information">Like me on <br> LinkedIn, Instagram, Behance,<br> Dribble</p>
     </div>
   </footer>
   
