@@ -44,11 +44,10 @@ li>a:hover {
   width: 100%;
   margin: 0 auto;
   background-color: var(--color-grey);
-  margin-bottom: 30px;
   animation: grow 2s;
 }
 
-.navigation_list li {
+.navigation-list li {
   display: inline-block;
   margin: 0 20px;
 }
@@ -57,11 +56,12 @@ li>a:hover {
   background-color: #F6F6F6;
 }
 
-h1 {
+.main-title {
   font: 48px var(--font);
   font-weight: bold;
   text-align: left;
   margin-bottom: 50px;
+  margin-top: 15px;
 }
 
 .profile,
@@ -97,7 +97,7 @@ h1 {
 }
 
 .skills {
-  font: 14px;
+  font-size: 14px;
   color: var(--color-grey);
   font-weight: bold;
   margin: 25px 0 60px 0;
